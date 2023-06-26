@@ -11,8 +11,7 @@
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
->
+            android:orientation="horizontal">
             <com.google.android.material.radiobutton.MaterialRadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -21,8 +20,8 @@
             <com.google.android.material.radiobutton.MaterialRadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="45dp"
-                android:text="Neccessity"/>
+                android:layout_marginStart="45dp"
+                android:text="UnNeccessity"/>
         </RadioGroup>
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textinput_dialog_layout"
@@ -92,7 +91,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/edt_amount."/>
+                android:inputType="number"
+                android:id="@+id/edt_amount"/>
 
         </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
